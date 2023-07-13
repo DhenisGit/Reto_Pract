@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".LoginnActivity"
     android:background="#F2F2F2">
 
     <ImageView
@@ -208,6 +209,4 @@
 
         </androidx.appcompat.widget.AppCompatButton>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
