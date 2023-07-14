@@ -1,16 +1,14 @@
 package com.example.retoprcts;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.util.PatternsCompat;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.util.Patterns;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -22,17 +20,17 @@ public class RegisterActivity extends AppCompatActivity {
         btnLoginn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    validarEmail();
-            }
-            public void iniciar_sesion(View view) {
+            //        validarEmail();
                 startActivity(new Intent(RegisterActivity.this,LoginnActivity.class));
             }
 
         });
 
-
+    }
+    public void iniciar_sesion() {
 
     }
+
     private boolean validarEmail() {
         EditText editTextEmail = findViewById(R.id.email2);
         String email = editTextEmail.getText().toString().trim();
