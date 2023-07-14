@@ -22,8 +22,7 @@ public class RegisterActivity extends AppCompatActivity {
         btnLoginn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RegisterActivity.this,LoginnActivity .class);
-                startActivity(intent);
+                    validarEmail();
             }
         });
 

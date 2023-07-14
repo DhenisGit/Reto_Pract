@@ -23,10 +23,7 @@ public class LoginnActivity extends AppCompatActivity {
         btnRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginnActivity.this, RegisterActivity .class);
-                startActivity(intent);
-
-
+                validarEmail();
             }
 
         });

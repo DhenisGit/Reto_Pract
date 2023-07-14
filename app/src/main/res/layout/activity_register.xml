@@ -111,7 +111,8 @@
                 android:inputType="textPassword"
                 android:padding="12dp"
                 android:textColor="#707070"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:hint="Ingrese contraseña"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -138,7 +139,8 @@
                 android:inputType="textPassword"
                 android:textColor="#707070"
                 android:textSize="18sp"
-                android:padding="12dp"/>
+                android:padding="12dp"
+                android:hint="Reingrese contraseña"/>
         </com.google.android.material.textfield.TextInputLayout>
 
 
