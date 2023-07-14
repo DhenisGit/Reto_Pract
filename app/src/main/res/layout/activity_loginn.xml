@@ -51,11 +51,11 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="12dp"
-            android:background="@drawable/edittext_backagraund"
+            android:background="@drawable/edicion_draw"
             android:ems="10"
             android:inputType="textEmailAddress"
             android:padding="12dp"
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="12dp"
-                android:background="@drawable/edittext_backagraund"
+                android:background="@drawable/edicion_draw"
                 android:ems="10"
                 android:padding="12dp"
                 android:text="Ingrese contraseña"
