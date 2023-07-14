@@ -6,16 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import com.example.retoprcts.databinding.ActivityMainBinding;
+import com.example.retoprcts.databinding.ActivityMenuBinding;
 
 public class MenuActivity extends AppCompatActivity {
 
-    ActivityMainBinding binding;
+    ActivityMenuBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new InicioFragment());
 
