@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RetoPrcts</string>
+    <string name="BotonSiguiente">Siguiente</string>
+    <string name="tv1">Picasso</string>
+    <string name="BotonAnterior">Anterior</string>
+    <string name="tv2">Glide</string>
 </resources>
