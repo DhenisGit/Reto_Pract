@@ -24,6 +24,10 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                     validarEmail();
             }
+            public void iniciar_sesion(View view) {
+                startActivity(new Intent(RegisterActivity.this,LoginnActivity.class));
+            }
+
         });
 
 

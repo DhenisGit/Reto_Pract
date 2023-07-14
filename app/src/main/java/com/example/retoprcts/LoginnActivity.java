@@ -25,6 +25,9 @@ public class LoginnActivity extends AppCompatActivity {
             public void onClick(View v) {
                 validarEmail();
             }
+            public void registration(View view) {
+                startActivity(new Intent(LoginnActivity.this,RegisterActivity.class));
+            }
 
         });
     }
