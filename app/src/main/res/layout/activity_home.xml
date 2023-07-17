@@ -15,9 +15,21 @@
         android:textSize="40sp"
         android:text="Calculadora BMI" />
 
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_resul"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:hint="Resultado"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:background="#ed5" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/calcu"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Ingresa Número"
@@ -26,10 +38,12 @@
         android:inputType="phone"
         android:textAlignment="center"
         android:layout_gravity="center"/>
+
+    <!--android:textColorHint="#fd888a"-->
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/cal"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Ingresa Número"
@@ -39,9 +53,10 @@
         android:textAlignment="center"
         android:layout_gravity="center"/>
 
+<!--
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/not"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Ingresa Número"
@@ -53,7 +68,7 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/set"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Ingresa Número"
@@ -61,25 +76,62 @@
         android:maxLength="20"
         android:inputType="phone"
         android:textAlignment="center"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"/>-->
 
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/txt_resul"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:hint="Resultado"
-        android:textAlignment="center"
         android:layout_marginTop="30dp"
-        android:background="#ed5" />
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
 
     <Button
         android:id="@+id/btn_sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Calcular" />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="+" />
+
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="*" />
+
+<!--        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="AC" />-->
+
+    </LinearLayout>
 
 </LinearLayout>
